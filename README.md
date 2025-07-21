@@ -2,12 +2,14 @@
 
 This repository contains everything you need to follow the "[Thinking in Arrays: An Introduction to Array-Oriented Programming](https://pretalx.com/pycongr25/talk/CKHVPS/)" tutorial, presented at the [PyCon Greece 2025](https://2025.pycon.gr/en/) conference on [Friday, August 29 at 4:45pm‒6:15pm EEST](https://2025.pycon.gr/en/program/schedule/) in Innovathens - Tutorial room.
 
+Material created by [Jim Pivarski](https://github.com/jpivarski) and [Peter Fackeldey](https://github.com/pfackeldey)
+
 ## Run the notebooks on your computer with `pixi`
 
 First, clone this repository.
 
 ```shell
-git clone https://github.com/jpivarski-talks/2025-08-29-pycongr2025-tutorial-thinking-in-arrays.git
+git clone https://github.com/ikrommyd/2025-08-29-pycongr2025-tutorial-thinking-in-arrays.git
 cd 2025-08-29-pycongr2025-tutorial-thinking-in-arrays
 ```
 
