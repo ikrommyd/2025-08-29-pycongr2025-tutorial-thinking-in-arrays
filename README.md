@@ -21,7 +21,7 @@ Then you can install the environment and start a local JupyterLab session with:
 pixi run start
 ```
 
-## Preliminary outline
+## Preliminary outline for the 1.5-hour tutorial
 
 * **0:00‒0:10 (10 min)** Lecture 1: Array-oriented programming and its benefits. Simple and complex (3 body problem) examples of imperative, functional, and array-oriented styles. Speed and memory advantages in Python. What the array-oriented paradigm emphasizes/is good for: interactive analyses of distributions. Path length as a worked example.
 * **0:10‒0:30 (20 min)** Project 1: Conway’s Game of Life using arrays. Imperative solution is given, as is an initial condition that makes boundary conditions unimportant, simplifying the problem. Students’ array-oriented solutions should be much faster than imperative Python. For extra glory, there’s a slick solution involving convolutions.
