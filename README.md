@@ -4,7 +4,7 @@ This repository contains everything you need to follow the "[Thinking in Arrays:
 
 Material created by [Jim Pivarski](https://github.com/jpivarski) and [Peter Fackeldey](https://github.com/pfackeldey).
 
-## Run the notebooks on your computer with `pixi`
+## Recommended: run the notebooks on your computer with `pixi`
 
 First, clone this repository.
 
@@ -19,6 +19,47 @@ Then you can install the environment and start a local JupyterLab session with:
 
 ```shell
 pixi run start
+```
+## Alternative: run the notebooks on your computer with `uv` or a standard Python `venv`
+
+Make sure you've [installed uv](https://docs.astral.sh/uv/getting-started/installation/) on your computer.
+
+Then you can install the environment and start a local JupyterLab session with uv:
+
+```shell
+uv venv --python=3.13
+source .venv/bin/activate
+uv pip install -r requirements.txt
+jupyter lab
+```
+
+or with a standard Python `venv`:
+
+```shell
+python3.13 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+jupyter lab
+```
+
+## Alternative: run the notebooks on your computer with `conda`/`mamba`
+
+Make sure you've [installed Miniforge](https://conda-forge.org/download/) on your computer.
+
+Then you can install the environment and start a local JupyterLab session with:
+
+```shell
+conda env create -f environment.yml
+conda activate 2025-08-29-pycongr2025-tutorial-thinking-in-arrays
+jupyter lab
+```
+
+## Alternative: run the notebooks on MyBinder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ikrommyd/2025-08-29-pycongr2025-tutorial-thinking-in-arrays/HEAD)
+
+Click on the Binder badge above or go to the url below to launch a JupyterLab session in your browser with the notebooks and all dependencies pre-installed using MyBinder:
+```
+https://mybinder.org/v2/gh/ikrommyd/2025-08-29-pycongr2025-tutorial-thinking-in-arrays/HEAD
 ```
 
 ## Preliminary outline for the 1.5-hour tutorial
