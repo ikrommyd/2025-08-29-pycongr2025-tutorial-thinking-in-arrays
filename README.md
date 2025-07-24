@@ -73,6 +73,10 @@ https://mybinder.org/v2/gh/ikrommyd/2025-08-29-pycongr2025-tutorial-thinking-in-
 * **1:15‒1:25 (10 min)** Solutions to project 3. Show the full “Mandelbrot on all accelerators” and note that array-oriented programming is advantageous for GPU programming, even beyond Python.
 * **1:25‒1:30 (5 min)** Quick mention of Lecture 4: Ragged and deeply nested arrays. Show examples of ragged, nested, missing, and heterogeneous data, and how it can still make sense to treat them as arrays. Conversion to and from “tidy” data (tabular with references) to compare and contrast.
 
+## Bonus
+
+* Array-oriented puzzles tutorial/exercises inside the `array-oriented-puzzles` directory.
+
 ## Full outline for a 4-hour tutorial
 
 * **0:00‒0:15 (15 min)** Lecture 1: Array-oriented programming and its benefits. Simple and complex (3 body problem) examples of imperative, functional, and array-oriented styles. Speed and memory advantages in Python. What the array-oriented paradigm emphasizes/is good for: interactive analyses of distributions. Path length as a worked example.
@@ -90,4 +94,4 @@ https://mybinder.org/v2/gh/ikrommyd/2025-08-29-pycongr2025-tutorial-thinking-in-
 * **3:00‒3:15 (15 min)** Lecture 4: Ragged and deeply nested arrays. Show examples of ragged, nested, missing, and heterogeneous data, and how it can still make sense to treat them as arrays. Conversion to and from “tidy” data (tabular with references) to compare and contrast.
 * **3:15‒3:35 (20 min)** Project 4: Exploring data in ragged arrays. Compute path lengths of taxi trips from Parquet files.
 * **3:35‒3:45 (10 min)** Break.
-* **3:45‒4:00 (15 min)** Solutions to project 4. Afterward, see https://github.com/hsf-training/array-oriented-puzzles for more fun!
+* **3:45‒4:00 (15 min)** Solutions to project 4.
