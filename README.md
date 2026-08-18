@@ -4,6 +4,35 @@ This repository contains everything you need to follow the "[Thinking in Arrays:
 
 Material created by [Jim Pivarski](https://github.com/jpivarski) and [Peter Fackeldey](https://github.com/pfackeldey).
 
+## Internet connectivity
+
+> [!IMPORTANT]
+> **Strongly recommended: do a local setup *and* pre-download the Part 4 dataset before the tutorial.** Conference Wi-Fi is unreliable, and this is the only way to guarantee you can follow along regardless of what the network does on the day.
+
+### Recommended path (local + pre-downloaded data)
+
+1. Clone this repository and create the virtual environment using one of the setups below (`pixi`, `uv`, `venv`, `conda`, etc.) — see the sections that follow.
+2. Pre-download the 611 MB Chicago taxi Parquet file used in Part 4 and place it at `part-4/chicago-taxi.parquet`.
+
+   with `curl`:
+   ```shell
+   curl -L -o part-4/chicago-taxi.parquet https://zenodo.org/records/14537442/files/chicago-taxi.parquet
+   ```
+   or with `wget`:
+   ```shell
+   wget -O part-4/chicago-taxi.parquet https://zenodo.org/records/14537442/files/chicago-taxi.parquet
+   ```
+   Then change the `"https://zenodo.org/records/14537442/files/chicago-taxi.parquet"` strings in `part-4/project.ipynb` and `part-4/solutions.ipynb` to `"chicago-taxi.parquet"`.
+
+With those two steps done, you need **no internet at all** during the tutorial.
+
+### Other options (less reliable)
+
+- **Local setup without pre-downloading the Parquet file** — works for Parts 1–3 offline, but Part 4 will stream the 611 MB file from Zenodo on the day, which depends on the venue's Wi-Fi.
+- **MyBinder** (no local setup) — runs everything in the browser, but needs steady connectivity throughout the tutorial just to keep the session alive.
+
+**If the internet goes out at the venue:** only attendees with a local setup will be able to run the notebooks. The projects are done in groups, so one local setup per group is enough. As a last resort, we'll live-code the solutions together.
+
 ## Recommended: run the notebooks on your computer with `pixi`
 
 First, clone this repository.
